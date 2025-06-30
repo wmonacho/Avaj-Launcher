@@ -1,0 +1,8 @@
+7
+JetPlane JP1 99 99 99
+JetPlane JP2 1 1 1
+Helicopter H6 50 50 50
+Baloon B6 100 100 100
+Baloon B7 10 90 5
+Helicopter H7 0 0 100
+JetPlane JP3 77 77 77

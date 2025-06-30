@@ -1,0 +1,5 @@
+3
+Baloon B4 10 10 50
+JetPlane J3 20 30 80
+Helicopter H5 5 5 100
+Baloon B5 0 0 10

@@ -1,0 +1,6 @@
+2
+Baloon B8 15 25 35
+Helicopter H8 60 70 80
+JetPlane J4 45 55 65
+Baloon B9 5 15 25
+Helicopter H9 85 95 100
