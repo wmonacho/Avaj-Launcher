@@ -1,0 +1,54 @@
+Tower says: Baloon#B1(1) registered to weather tower.
+Tower says: Baloon#B2(2) registered to weather tower.
+Tower says: JetPlane#J1(3) registered to weather tower.
+Tower says: Helicopter#H1(4) registered to weather tower.
+Tower says: Helicopter#H2(5) registered to weather tower.
+Tower says: Helicopter#H3(6) registered to weather tower.
+Tower says: Baloon#B3(7) registered to weather tower.
+Tower says: JetPlane#J2(8) registered to weather tower.
+Tower says: Helicopter#H4(9) registered to weather tower.
+Baloon#B1(1): Damn you rain! You messed up my baloon.
+Baloon#B2(2): It's snowing. We're gonna crash.
+JetPlane#J1(3): OMG! Winter is coming!
+Helicopter#H1(4): My rotor is going to freeze!
+Helicopter#H2(5): My rotor is going to freeze!
+Helicopter#H3(6): It's raining. Watch out!
+Baloon#B3(7): I can't see anything!
+JetPlane#J2(8): Can't see much in this fog.
+Helicopter#H4(9): This is hot.
+Baloon#B1(1): Let's enjoy the good weather and take some pics.
+Baloon#B2(2): Let's enjoy the good weather and take some pics.
+JetPlane#J1(3): It's sunny. Let's fly fast!
+Helicopter#H1(4): My rotor is going to freeze!
+Helicopter#H1(4) landing.
+Tower says: Helicopter#H1(4) unregistered from weather tower.
+Helicopter#H2(5): My rotor is going to freeze!
+Helicopter#H3(6): Can't see anything.
+Baloon#B3(7): It's snowing. We're gonna crash.
+JetPlane#J2(8): OMG! Winter is coming!
+Helicopter#H4(9): This is hot.
+Baloon#B1(1): I can't see anything!
+Baloon#B2(2): I can't see anything!
+JetPlane#J1(3): It's sunny. Let's fly fast!
+Helicopter#H2(5): My rotor is going to freeze!
+Helicopter#H3(6): My rotor is going to freeze!
+Baloon#B3(7): Let's enjoy the good weather and take some pics.
+JetPlane#J2(8): It's sunny. Let's fly fast!
+Helicopter#H4(9): This is hot.
+Baloon#B1(1): It's snowing. We're gonna crash.
+Baloon#B2(2): It's snowing. We're gonna crash.
+JetPlane#J1(3): It's sunny. Let's fly fast!
+Helicopter#H2(5): My rotor is going to freeze!
+Helicopter#H2(5) landing.
+Tower says: Helicopter#H2(5) unregistered from weather tower.
+Helicopter#H3(6): My rotor is going to freeze!
+Baloon#B3(7): I can't see anything!
+JetPlane#J2(8): It's sunny. Let's fly fast!
+Helicopter#H4(9): This is hot.
+Baloon#B1(1): Let's enjoy the good weather and take some pics.
+Baloon#B2(2): Let's enjoy the good weather and take some pics.
+JetPlane#J1(3): It's sunny. Let's fly fast!
+Helicopter#H3(6): My rotor is going to freeze!
+Baloon#B3(7): It's snowing. We're gonna crash.
+JetPlane#J2(8): It's sunny. Let's fly fast!
+Helicopter#H4(9): This is hot.
