@@ -1,11 +1,8 @@
 package simulator;
 
 import weather.WeatherTower;
-import weather.WeatherProvider;
-import aircraft.Baloon;
-import aircraft.JetPlane;
-import aircraft.Helicopter;
 import aircraft.Coordinates;
+import aircraft.AircraftFactory;
 import flyable.Flyable;
 import java.io.*;
 import java.util.*;
@@ -25,7 +22,6 @@ public class Simulator {
             String line = br.readLine();
             if (line == null) throw new Exception("Scenario file is empty.");
             int cycles = Integer.parseInt(line.trim());
-            long id = 1;
 
             while ((line = br.readLine()) != null) {
                 line = line.trim();
@@ -45,29 +41,17 @@ public class Simulator {
                 if (height > 100) height = 100;
                 Coordinates coords = new Coordinates(longitude, latitude, height);
 
-                Flyable flyable;
-                switch (type.toLowerCase()) {
-                    case "baloon":
-                        flyable = new Baloon(id, name, coords);
-                        break;
-                    case "jetplane":
-                        flyable = new JetPlane(id, name, coords);
-                        break;
-                    case "helicopter":
-                        flyable = new Helicopter(id, name, coords);
-                        break;
-                    default:
-                        throw new Exception("Unknown aircraft type: " + type);
-                }
+                Flyable flyable = AircraftFactory.newAircraft(type, name, coords);
                 flyables.add(flyable);
                 weatherTower.register(flyable);
                 flyable.registerTower(weatherTower);
-                id++;
             }
 
             for (int i = 0; i < cycles; i++) {
                 weatherTower.changeWeather();
             }
+            
+            SimulationLogger.close();
         } catch (NumberFormatException e) {
             System.out.println("Error: Invalid number format in scenario file.");
         } catch (Exception e) {
